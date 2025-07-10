@@ -1,0 +1,26 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+
+# Environment files
+.env
+.env.*
+
+# SQLite DB (optional if using one)
+*.sqlite3
+*.db
+
+# VS Code settings (optional, if using VS Code)
+.vscode/
+
+# macOS system files (if on Mac)
+.DS_Store
+
+# Logs
+*.log
