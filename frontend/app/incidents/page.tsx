@@ -16,10 +16,10 @@ const formSchema = z.object({
   type: z.enum(["fire", "medical", "disturbance", "unknown"]),
   description: z.string().min(5),
   zone: z.string().min(1),
-  latitude: z.string(),
-  longitude: z.string(),
+  latitude: z.coerce.number(),
+  longitude: z.coerce.number(),
   reported_at: z.string()
-})
+});
 
 export default function IncidentFormPage() {
   const [loading, setLoading] = useState(false)
