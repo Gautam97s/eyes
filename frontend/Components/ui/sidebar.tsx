@@ -1,6 +1,6 @@
 "use client";
 import { motion, Variants, Transition } from "framer-motion";
-import { cn } from "@/Lib/utils";
+import { cn } from "@/lib/utils";
 import { ScrollArea } from "./scroll-area";
 import { Badge } from "./badge"
 import {

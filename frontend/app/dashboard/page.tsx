@@ -1,6 +1,6 @@
 "use client";
 
-import { Card, CardContent } from "@/Components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Gauge, Users, Shield, Map } from "lucide-react";
 import { useEffect, useState } from "react";
 import axios from "axios";

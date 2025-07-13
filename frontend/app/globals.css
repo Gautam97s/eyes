@@ -117,4 +117,10 @@
   body {
     @apply bg-background text-foreground;
   }
+  .recharts-responsive-container:focus,
+  .recharts-wrapper:focus,
+  .recharts-surface:focus,
+  .recharts-sector:focus {
+    outline: none !important;
+  }
 }

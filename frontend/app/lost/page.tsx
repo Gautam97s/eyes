@@ -7,16 +7,16 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { z } from "zod"
 import { useState } from "react"
 import axios from "axios"
-import { Input } from "@/Components/ui/input"
-import { Button } from "@/Components/ui/button"
-import { Textarea } from "@/Components/ui/textarea"
+import { Input } from "@/components/ui/input"
+import { Button } from "@/components/ui/button"
+import { Textarea } from "@/components/ui/textarea"
 import {
   Select,
   SelectItem,
   SelectTrigger,
   SelectContent,
   SelectValue,
-} from "@/Components/ui/select"
+} from "@/components/ui/select"
 import { format } from "date-fns"
 
 const formSchema = z.object({
